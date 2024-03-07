@@ -130,7 +130,7 @@ function maioresNotas(materias){
     console.log(terceiro)
 }
 
-function menoresNotas(nome){
+function menoresNotas(materias){
     var menor = 0;
     for(let n=0; n<materias.length; n++){
         if(materias.notas[n] < menor){
